@@ -1,0 +1,22 @@
+{
+  "name": "perigrin-marketplace",
+  "owner": {
+    "name": "Chris Prather",
+    "url": "https://chris.prather.org"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugins by Chris Prather",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "commonplacebook",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/perigrin/claude-plugin-commonplacebook.git"
+      },
+      "description": "Semantic search and journaling for zk notebooks. Adds keyword, semantic, and similar-note search plus a daily journal interview command.",
+      "version": "0.1.0"
+    }
+  ]
+}
