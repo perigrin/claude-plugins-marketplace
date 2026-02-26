@@ -11,11 +11,11 @@ Personal Claude Code plugin marketplace by Chris Prather.
 Add this marketplace to Claude Code:
 
 ```
-/install-marketplace perigrin/claude-plugins-marketplace
+/plugin marketplace add perigrin/claude-plugins-marketplace
 ```
 
 Then install plugins from it:
 
 ```
-/install commonplacebook
+/plugin install commonplacebook@perigrin-marketplace
 ```
