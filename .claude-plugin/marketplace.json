@@ -16,7 +16,7 @@
         "url": "https://github.com/perigrin/claude-plugin-commonplacebook.git"
       },
       "description": "Semantic search and journaling for zk notebooks. Adds keyword, semantic, and similar-note search plus a daily journal interview command.",
-      "version": "0.1.0"
+      "version": "0.2.0"
     }
   ]
 }
