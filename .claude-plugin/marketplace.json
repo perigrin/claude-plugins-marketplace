@@ -17,6 +17,15 @@
       },
       "description": "Semantic search and journaling for zk notebooks. Adds keyword, semantic, and similar-note search plus a daily journal interview command.",
       "version": "0.2.0"
+    },
+    {
+      "name": "crochet",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/perigrin/crochet.git"
+      },
+      "description": "Intelligence layer for git-zhi. Refinement, assessment, import, reporting, onboarding, pushback, and alignment skills for managing development work as dependency chains.",
+      "version": "0.3.0"
     }
   ]
 }
