@@ -26,6 +26,24 @@ validating pipeline outputs.
 Requires [git-zhi](https://github.com/perigrin/git-zhi) on `$PATH`. Run
 `crochet:install` to set it up automatically.
 
+### perl-development
+
+Agentic Perl development — version-aware code generation, Test2 testing,
+dependency management, static analysis, and regression testing across the
+production version matrix. PVM is the reference backend; alternative
+backends are a community contribution path.
+
+| Skill | Purpose |
+|-------|---------|
+| `perl:setup` | Select backend, scaffold project |
+| `perl:write-perl` | Version-detecting code generation (dispatches to 5.42/5.40/5.38/5.36/toolchain) |
+| `perl:test-perl` | Test2::V0 testing with TDD workflow |
+| `perl:test-mojolicious` | Test::Mojo for Mojolicious apps |
+| `perl:debug-perl` | Systematic debugging with psc and pvx |
+| `perl:manage-deps` | CPAN dependency management via cpanfile |
+| `perl:review-perl` | Static analysis with perlcritic and perltidy |
+| `perl:regression-test` | Version matrix testing via PVM binary cache |
+
 ### commonplacebook
 
 Semantic search and journaling for zk notebooks. Adds keyword, semantic,
@@ -36,12 +54,13 @@ and similar-note search plus a daily journal interview command.
 Add this marketplace to Claude Code:
 
 ```
-/install-marketplace perigrin/claude-plugins-marketplace
+/plugin marketplace add perigrin/claude-plugins-marketplace
 ```
 
 Then install plugins:
 
 ```
-/install-plugin crochet@perigrin-marketplace
-/install-plugin commonplacebook@perigrin-marketplace
+/plugin install crochet
+/plugin install perl-development
+/plugin install commonplacebook
 ```

@@ -26,6 +26,15 @@
       },
       "description": "Intelligence layer for git-zhi. Refinement, assessment, import, reporting, onboarding, pushback, and alignment skills for managing development work as dependency chains.",
       "version": "0.3.0"
+    },
+    {
+      "name": "perl-development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/perigrin/perl-development-plugin.git"
+      },
+      "description": "Agentic Perl development — version-aware code generation, Test2 testing, dependency management, static analysis, and regression testing. PVM is the reference backend.",
+      "version": "0.1.0"
     }
   ]
 }
