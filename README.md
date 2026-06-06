@@ -10,7 +10,8 @@ Intelligence layer for [git-zhi](https://github.com/perigrin/git-zhi).
 An SDLC pipeline: assess a PRD against a codebase, decompose it into an
 executable chain of issues, review the chain, execute issues via TDD with
 review gates, and run a retrospective at milestone completion. Builds on
-superpowers and PAAD when they are installed.
+[superpowers](https://github.com/obra/superpowers) and PAAD when they are
+installed.
 
 The pipeline runs in order:
 
