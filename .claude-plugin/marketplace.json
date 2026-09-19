@@ -25,7 +25,7 @@
         "url": "https://github.com/perigrin/crochet.git"
       },
       "description": "Intelligence layer for git-zhi — SDLC pipeline skills (assess, refinement, chain-review, execute, postmortem) with superpowers and PAAD integration, for managing development work as dependency chains.",
-      "version": "0.4.0"
+      "version": "0.5.0"
     },
     {
       "name": "perl-development",
